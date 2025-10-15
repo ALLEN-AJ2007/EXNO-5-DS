@@ -42,6 +42,7 @@ plt.title("Bar chart")
 plt.show()
 ```
 <img width="971" height="680" alt="Screenshot 2025-10-15 204752" src="https://github.com/user-attachments/assets/7759e7bc-a705-4dd6-88e6-ff2ca135658b" />
+
 ```
 #Histogram
 data=[1,2,3,4,5,5,6,6,7,5,4,3,2,1]
@@ -102,7 +103,7 @@ y = [2, 4, 6, 8, 10]
 plt.fill_between(x,y,color='blue',alpha=0.4)
 plt.title("Area Chart")
 plt.show()
-```
+
 ```
 <img width="933" height="658" alt="Screenshot 2025-10-15 204854" src="https://github.com/user-attachments/assets/b9c0975f-b97e-46e5-8d1e-ed066df25a15" />
 # Result:
