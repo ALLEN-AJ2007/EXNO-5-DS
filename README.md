@@ -70,7 +70,9 @@ plt.pie(sizes,labels=labels)
 plt.title("Pie Chart")
 plt.show()
 ```
+
 <img width="677" height="635" alt="Screenshot 2025-10-15 204824" src="https://github.com/user-attachments/assets/aa0e273e-479c-42fa-8c9b-2b6210ab9d5f" />
+
 ```
 # Box plot
 
@@ -94,6 +96,7 @@ plt.plot(x_smooth,y_smooth,'-',label='spline')
 plt.legend()
 plt.show()
 ```
+
 <img width="945" height="648" alt="Screenshot 2025-10-15 204844" src="https://github.com/user-attachments/assets/6bba5d35-9507-45e3-981e-f6e5259cdac2" />
 
 ```
