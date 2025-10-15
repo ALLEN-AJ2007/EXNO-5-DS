@@ -63,11 +63,13 @@ plt.show()
 ```
 <img width="947" height="677" alt="Screenshot 2025-10-15 204814" src="https://github.com/user-attachments/assets/4e73cb7f-7929-4216-bd47-1f3df0000241" />
 ```
-sizes=[20,30,50]
-labels=['A','B','C']
-plt.pie(sizes,labels=labels)
-plt.title("Pie Chart")
+# Area Chart
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+plt.fill_between(x,y,color='blue',alpha=0.4)
+plt.title("Area Chart")
 plt.show()
+
 ```
 <img width="1041" height="653" alt="image" src="https://github.com/user-attachments/assets/c42befe5-b954-4823-bcd4-80900d029dd6" />
 
