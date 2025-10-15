@@ -71,38 +71,7 @@ plt.title("Pie Chart")
 plt.show()
 ```
 <img width="1041" height="653" alt="image" src="https://github.com/user-attachments/assets/c42befe5-b954-4823-bcd4-80900d029dd6" />
-```
-# Box plot
 
-data=[7,15,13,21,24,30]
-plt.boxplot(data)
-plt.title("Box Plot")
-plt.show()
-```
-<img width="1110" height="702" alt="image" src="https://github.com/user-attachments/assets/7e1a89ee-e284-4289-9d1d-a039c2d09c66" />
-```
-#spline chart
-from scipy.interpolate import make_interp_spline
-x=np.arange(1,11)
-y=np.array([2,3,5,7,8,8,9,10,11,12])
-spl=make_interp_spline(x,y)
-x_smooth=np.linspace(x.min(),x.max(),100)
-y_smooth=spl(x_smooth)
-plt.plot(x,y,'o',label='data')
-plt.plot(x_smooth,y_smooth,'-',label='spline')
-plt.legend()
-plt.show()
-```
-<img width="1030" height="684" alt="image" src="https://github.com/user-attachments/assets/70f8bc33-06a5-4e22-8f92-d1dbf0c3c538" />
-```
-# Area Chart
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 6, 8, 10]
-plt.fill_between(x,y,color='blue',alpha=0.4)
-plt.title("Area Chart")
-plt.show()
-
-```
 
 
 <img width="933" height="658" alt="Screenshot 2025-10-15 204854" src="https://github.com/user-attachments/assets/b9c0975f-b97e-46e5-8d1e-ed066df25a15" />
