@@ -69,7 +69,6 @@ y = [2, 4, 6, 8, 10]
 plt.fill_between(x,y,color='blue',alpha=0.4)
 plt.title("Area Chart")
 plt.show()
-
 ```
 <img width="1041" height="653" alt="image" src="https://github.com/user-attachments/assets/c42befe5-b954-4823-bcd4-80900d029dd6" />
 
