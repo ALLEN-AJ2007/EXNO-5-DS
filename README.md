@@ -24,8 +24,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 # visulisation in matplotlib
-```
-```
 #line plot
 x=[1,2,3,4]
 y=[10,20,25,30]
