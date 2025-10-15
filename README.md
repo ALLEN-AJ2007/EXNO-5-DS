@@ -96,6 +96,7 @@ plt.legend()
 plt.show()
 ```
 <img width="945" height="648" alt="Screenshot 2025-10-15 204844" src="https://github.com/user-attachments/assets/6bba5d35-9507-45e3-981e-f6e5259cdac2" />
+
 ```
 # Area Chart
 x = [1, 2, 3, 4, 5]
