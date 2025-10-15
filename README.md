@@ -103,10 +103,8 @@ plt.fill_between(x,y,color='blue',alpha=0.4)
 plt.title("Area Chart")
 plt.show()
 ```
-<img width="933" height="658" alt="Screenshot 2025-10-15 204854" src="https://github.com/user-attachments/assets/b9c0975f-b97e-46e5-8d1e-ed066df25a15" />
-
 ```
-
+<img width="933" height="658" alt="Screenshot 2025-10-15 204854" src="https://github.com/user-attachments/assets/b9c0975f-b97e-46e5-8d1e-ed066df25a15" />
 # Result:
  
 Matplotlib provides versatile plotting functions like plot(), bar(), scatter(), hist(), pie(), boxplot(), fill_between(), imshow(), and 3D plotting to visualize data in line, bar, scatter, histogram, pie, box, area, heatmap, and spatial formats.
