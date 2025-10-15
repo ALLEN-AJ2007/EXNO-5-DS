@@ -62,52 +62,7 @@ plt.title("Scatter plot")
 plt.show()
 ```
 <img width="947" height="677" alt="Screenshot 2025-10-15 204814" src="https://github.com/user-attachments/assets/4e73cb7f-7929-4216-bd47-1f3df0000241" />
-```
-#Pie Chart
-sizes=[20,30,50]
-labels=['A','B','C']
-plt.pie(sizes,labels=labels)
-plt.title("Pie Chart")
-plt.show()
-```
 
-<img width="677" height="635" alt="Screenshot 2025-10-15 204824" src="https://github.com/user-attachments/assets/aa0e273e-479c-42fa-8c9b-2b6210ab9d5f" />
-
-```
-# Box plot
-
-data=[7,15,13,21,24,30]
-plt.boxplot(data)
-plt.title("Box Plot")
-plt.show()
-```
-<img width="954" height="685" alt="Screenshot 2025-10-15 204834" src="https://github.com/user-attachments/assets/6c58be26-977c-4863-8fdd-98ec3e713074" />
-
-```
-#plain chart
-from scipy.interpolate import make_interp_spline
-x=np.arange(1,11)
-y=np.array([2,3,5,7,8,8,9,10,11,12])
-spl=make_interp_spline(x,y)
-x_smooth=np.linspace(x.min(),x.max(),100)
-y_smooth=spl(x_smooth)
-plt.plot(x,y,'o',label='data')
-plt.plot(x_smooth,y_smooth,'-',label='spline')
-plt.legend()
-plt.show()
-```
-
-<img width="945" height="648" alt="Screenshot 2025-10-15 204844" src="https://github.com/user-attachments/assets/6bba5d35-9507-45e3-981e-f6e5259cdac2" />
-
-```
-# Area Chart
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 6, 8, 10]
-plt.fill_between(x,y,color='blue',alpha=0.4)
-plt.title("Area Chart")
-plt.show()
-
-```
 <img width="933" height="658" alt="Screenshot 2025-10-15 204854" src="https://github.com/user-attachments/assets/b9c0975f-b97e-46e5-8d1e-ed066df25a15" />
 # Result:
  
