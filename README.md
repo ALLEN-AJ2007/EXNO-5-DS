@@ -105,7 +105,7 @@ plt.show()
 ```
 <img width="933" height="658" alt="Screenshot 2025-10-15 204854" src="https://github.com/user-attachments/assets/b9c0975f-b97e-46e5-8d1e-ed066df25a15" />
 
-
+```
 
 # Result:
  
