@@ -62,6 +62,9 @@ plt.title("Scatter plot")
 plt.show()
 ```
 <img width="947" height="677" alt="Screenshot 2025-10-15 204814" src="https://github.com/user-attachments/assets/4e73cb7f-7929-4216-bd47-1f3df0000241" />
+
+
+
 ```
 # Area Chart
 x = [1, 2, 3, 4, 5]
